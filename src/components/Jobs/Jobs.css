@@ -1,0 +1,15 @@
+.jobs__title {
+    font-size: 34px;
+    margin-bottom: 1rem;
+    text-align: center;
+}
+
+.jobs__container {
+    display: flex;
+    flex-direction: column;
+}
+
+.loader {
+    text-align: center;
+
+}

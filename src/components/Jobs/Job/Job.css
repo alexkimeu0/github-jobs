@@ -1,0 +1,17 @@
+/* .job {
+    display: flex;
+    flex-direction: column;
+} */
+.job__card {
+    background-color: whitesmoke;
+    border-radius: .3rem;
+    padding: 1rem;
+    margin: .3rem 0;
+}
+
+.job__cardTitle {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
