@@ -16,7 +16,7 @@ const Jobs = () => {
     useEffect(() => {
         const getJobs = async () => {
             await axios
-                .get("https://shrouded-harbor-39689.herokuapp.com/https://jobs.github.com/positions.json?markdown=true")
+                .get("https://glacial-shore-61341.herokuapp.com/https://jobs.github.com/positions.json?markdown=true")
                 .then(response => setJobs(response.data))
         }
         getJobs()
@@ -27,7 +27,7 @@ const Jobs = () => {
         e.preventDefault()
         const getSearch = async () => {
             await axios
-                .get(`https://shrouded-harbor-39689.herokuapp.com/https://jobs.github.com/positions.json?search=${searchInput}&markdown=true`)
+                .get(`https://glacial-shore-61341.herokuapp.com/https://jobs.github.com/positions.json?search=${searchInput}&markdown=true`)
                 .then(response => setJobs(response.data))
         }
         getSearch()
